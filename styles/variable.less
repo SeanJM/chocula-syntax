@@ -1,0 +1,17 @@
+@import "syntax-variables";
+
+.variable {
+  color: @syntax-variable-color;
+}
+
+.variable .punctuation {
+  color: @syntax-text-color;
+}
+
+.variable.interpolation {
+  color: darken(@purple, 10%);
+}
+
+.variable.parameter.function {
+  color: @syntax-text-color;
+}

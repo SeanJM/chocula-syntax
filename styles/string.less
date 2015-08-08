@@ -1,0 +1,43 @@
+@import "syntax-variables";
+
+.string,
+.punctuation.string {
+  color: @light-orange;
+}
+
+.string.regexp {
+  color: @purple;
+}
+
+.string.regexp .character-class {
+  color: @purple;
+}
+
+.string.regexp .escape {
+  color: @aqua;
+}
+
+.string.regexp .begin,
+.string.regexp .end,
+.string.regexp .anchor,
+.string.regexp .operator {
+  color: @pink;
+}
+
+.string.regexp .source.ruby.embedded {
+  color: @orange;
+}
+
+.string.other.link {
+  color: @red;
+}
+
+// JSON
+
+.string.json {
+  color: @orange;
+}
+
+.value.json .string {
+  color: @light-orange;
+}

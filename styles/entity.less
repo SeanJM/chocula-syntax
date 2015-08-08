@@ -1,0 +1,38 @@
+@import "syntax-variables";
+
+.entity {
+  color: @orange;
+}
+
+.entity.name.class, .entity.name.type.class {
+  color: @light-orange;
+}
+
+.entity.name.section {
+  color: @aqua;
+}
+
+.entity.name.tag {
+  color: @red;
+}
+
+.entity.other.attribute-name.id {
+  color: @aqua;
+}
+
+.entity.name.function {
+  color: @blue;
+}
+
+.entity.other.placeholder,
+.entity.other.placeholder .entity {
+  color: @syntax-variable-color;
+}
+
+.entity.css {
+  color: @light-orange;
+}
+
+.attribute-selector .punctuation.entity {
+  color: @syntax-text-color;
+}

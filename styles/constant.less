@@ -1,0 +1,30 @@
+@import "syntax-variables";
+
+.constant {
+  color: @orange;
+}
+
+.constant.character.escape {
+  color: @light-aqua;
+}
+
+.constant.numeric {
+  color: @pink;
+}
+
+.constant.boolean {
+  color: @pink;
+}
+
+.constant.other.color,
+.constant.other.color .constant {
+  color: @aqua;
+}
+
+.constant.other.symbol {
+  color: @green;
+}
+
+.constant.mathematical-symbols.scss {
+  color: @gray;
+}

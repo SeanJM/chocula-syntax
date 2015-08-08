@@ -1,0 +1,30 @@
+@import "syntax-variables";
+
+.keyword.control {
+  color: @orange;
+}
+
+.keyword.operator {
+  color: @syntax-text-color;
+}
+
+.keyword.other.special-method {
+  color: @blue;
+}
+
+.keyword.other.unit {
+  color: @orange;
+}
+
+.keyword.import {
+  color: @purple;
+}
+
+.keyword.import + .entity,
+.keyword.import + .entity .punctuation.definition.entity {
+  color: @purple;
+}
+
+.numeric + .keyword.unit {
+  color: @pink;
+}
