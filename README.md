@@ -1,3 +1,3 @@
 # A Darklua / One Dark inspired syntax theme
 
-![A screenshot of your theme](https://github.com/SeanJM/chocula-syntax/blob/master/chocula_screenshot-01.png)
+![A screenshot of your theme](https://raw.githubusercontent.com/SeanJM/chocula-syntax/master/chocula_screenshot-01.png)
