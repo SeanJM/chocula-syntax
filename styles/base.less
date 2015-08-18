@@ -71,7 +71,8 @@ atom-text-editor .search-results .marker.current-result .region,
   border: 1px solid @syntax-result-marker-color-selected;
 }
 
-.comment {
+.comment,
+.comment .markup.link {
   color: @brown;
 }
 
@@ -94,36 +95,6 @@ atom-text-editor .search-results .marker.current-result .region,
 .invalid.illegal {
   background-color: @red;
   color: @syntax-background-color;
-}
-
-.punctuation {
-  &.definition {
-    &.variable,
-    &.parameters,
-    &.array {
-      color: @syntax-text-color;
-    }
-
-    &.heading,
-    &.identity {
-      color: @blue;
-    }
-
-    &.bold {
-      color: @light-orange;
-      font-weight: bold;
-    }
-
-    &.italic {
-      color: @purple;
-      font-style: italic;
-    }
-  }
-
-  &.section.embedded {
-    color: darken(@red, 10%);
-  }
-
 }
 
 .support {
