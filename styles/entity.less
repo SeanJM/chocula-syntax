@@ -1,42 +1,43 @@
 @import "syntax-variables";
 
-.entity {
+.syntax--entity {
   color: @orange;
 }
 
-.entity.name.class, .entity.name.type.class {
+.syntax--entity.syntax--name.syntax--class,
+.syntax--entity.syntax--name.syntax--type.syntax--class {
   color: @light-orange;
 }
 
-.entity.name.section {
+.syntax--entity.syntax--name.syntax--section {
   color: @aqua;
 }
 
-.entity.name.tag {
+.syntax--entity.syntax--name.syntax--tag {
   color: @chocolate;
 }
 
-.entity.other.attribute-name.id {
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
   color: @aqua;
 }
 
-.entity.name.function {
+.syntax--entity.syntax--name.syntax--function {
   color: @blue;
 }
 
-.entity.other.placeholder,
-.entity.other.placeholder .entity {
+.syntax--entity.syntax--other.syntax--placeholder,
+.syntax--entity.syntax--other.syntax--placeholder .syntax--entity {
   color: @syntax-variable-color;
 }
 
-.entity.css {
+.syntax--entity.syntax--css {
   color: @light-orange;
 }
 
-.entity.gfm {
+.syntax--entity.syntax--gfm {
   color: @light-orange;
 }
 
-.attribute-selector .punctuation.entity {
+.syntax--attribute-selector .syntax--punctuation.syntax--entity {
   color: @syntax-text-color;
 }
