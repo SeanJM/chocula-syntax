@@ -2,5 +2,5 @@
 * Every feature added
 * Every bug fixed
 
-## 0.13.0 - Release for Atom v1.13.0 or newer
+## 0.13.0 - Release for Atom v1.3 or newer
 * Deprecation fixes to :host and ::shadow
